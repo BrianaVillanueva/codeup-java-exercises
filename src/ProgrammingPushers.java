@@ -1,4 +1,6 @@
-//public class ProgrammingPushups {
+import java.util.ArrayList;
+//
+//public class ProgrammingPushers {
 //    public static void main(String[] args) {
 //        System.out.println(multiply(7, 17)); //for problem 1
 //        System.out.println(toThePower(2, 16)); //for problem 2
@@ -26,14 +28,14 @@
 //
 //        }
 //        return product;
-//}
 
 /*
 Write a Java program to add two binary numbers. Go to the editor
 Input Data:
 Input first binary number: 10
-Input second binary number: 11
-Expected Output
+
+   // Input second binary number: 11
+  //  Expected Output
 //Sum of two binary numbers: 101
 // */
 //
@@ -45,4 +47,20 @@ Expected Output
 //
 //    }
 //    return binaryAdd;
+
+//
+////-----create an array, iterate over the array---//
+//
+//    public static void main (String[] args){
+//        public randomList [] {
+//                for (Srting == args )
+//                    ArrayList<Integer>
+//        }
+//        return randomList;
+//    }
+//
+//
+//
+//
+//}
 
