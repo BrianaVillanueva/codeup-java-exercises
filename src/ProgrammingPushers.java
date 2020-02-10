@@ -1,7 +1,8 @@
 import java.util.ArrayList;
-//
-//public class ProgrammingPushers {
-//    public static void main(String[] args) {
+
+
+public class ProgrammingPushers {
+    public static void main(String[] args) {
 //        System.out.println(multiply(7, 17)); //for problem 1
 //        System.out.println(toThePower(2, 16)); //for problem 2
 //    }
@@ -60,7 +61,14 @@ Input first binary number: 10
 //    }
 //
 //
-//
-//
-//}
+//write a list that reads in a series of 3-5 lines and them writes them out
+        System.out.println("This is line one");
+        System.out.println("This is line two");
+        System.out.println("This is line three");
+        System.out.println("This is line four");
+
+    }
+
+
+}
 
