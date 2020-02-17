@@ -1,10 +1,38 @@
 package shapes;
 
-//change your existing Rectangle class to inherit from Quadrilateral and implement Measurable.
-public abstract class Rectangle extends Quadrilateral implements Measurable {
-
-    public Rectangle(int length, int width) { //this is a default constructor intellij prompted for after adding the extends and implements
+public class Rectangle extends Quadrilateral implements Measurable {
+    public Rectangle(int length, int width) {
         super(length, width);
+    }
+
+    @Override
+    public int getLength() {
+        return this.length;
+    }
+
+    @Override
+    public int getWidth() {
+        return this.width;
+    }
+
+    @Override
+    public void setLength() {
+        this.length = length;
+    }
+
+    @Override
+    public void setWidth() {
+        this.width = width;
+    }
+
+    @Override
+    public double getPerimeter() {
+        return length * 4;
+    }
+
+    @Override
+    public double getArea() {
+        return length * width;
     }
     /*---FIRST RECTANGLE EXERCISE -HAD TO COMMENT OUT FOR SECOND EXERCISE---*/
 //    protected int length;
