@@ -69,6 +69,8 @@ Input first binary number: 10
 
     }
 
+    /* Write
+
 
 }
 
